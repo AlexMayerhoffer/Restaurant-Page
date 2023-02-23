@@ -1,17 +1,11 @@
-// import { home_page } from "./home_page";
 
-// let home = document.createElement('div');
-// home.className = "wrapper menu_wrapper";
-// console.log(home);
-// home.innerHTML = home_page;
-
-// document.body.appendChild(home);
-
-
+import { header_bar } from "./header_bar";
 import { home_page } from "./home_page";
 import { menu_page } from "./menu_page";
 import { about_page } from "./about_page";
 
+document.body.appendChild(header_bar());
+document.body.appendChild(home_page());
 
 const buttons= document.getElementsByClassName('header_button');
 let btn_list = [...buttons];
@@ -43,4 +37,4 @@ btn_list[2].addEventListener('click', (e) => {
   e.target.disabled = true;
 })
 
-document.body.appendChild(home_page());
+

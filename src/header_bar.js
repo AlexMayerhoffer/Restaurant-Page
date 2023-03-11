@@ -12,6 +12,7 @@ export function header_bar() {
   home_btn.id = "home_button";
   home_btn.classList.add('header_button');
   home_btn.innerHTML = "Home";
+  home_btn.disabled = true;
 
   const menu_btn = document.createElement('button');
   menu_btn.id = "menu_button";

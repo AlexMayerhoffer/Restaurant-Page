@@ -1,0 +1,36 @@
+#about_wrapper {
+  height: calc(100dvh - 10rem);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0d5c8;
+}
+
+.content_wrapper {
+  width:660px;
+  height:772px;
+  background: url("../assets/bg_vertical.png");
+  background-size: contain;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5%;
+
+  text-align: center;
+}
+
+.content_wrapper p {
+  margin-top: 3rem;
+}
+
+.content_wrapper h3{
+  margin-top: auto;
+}
+
+.content_wrapper a {
+  color: rgb(99, 79, 63);
+  text-decoration: none;
+}

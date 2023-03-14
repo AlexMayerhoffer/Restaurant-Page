@@ -5,7 +5,7 @@ import { menu_page } from "./menu_page";
 import { about_page } from "./about_page";
 
 document.body.appendChild(header_bar());
-// document.body.appendChild(home_page());
+document.body.appendChild(home_page());
 
 const buttons= document.getElementsByClassName('header_button');
 let btn_list = [...buttons];
@@ -36,5 +36,3 @@ btn_list[2].addEventListener('click', (e) => {
   enableAllHeaderButtons();
   e.target.disabled = true;
 })
-
-

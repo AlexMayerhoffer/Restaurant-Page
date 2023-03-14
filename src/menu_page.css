@@ -1,12 +1,13 @@
 .menu_content_wrapper {
   background: #333226;
-  height: 100%;
+  height: calc(100vh - 10rem);
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
 #menu_content {
-  width: 90%;
+  width: 100%;
   height: 100%;
   /*background: url("../assets/wood_board.png");*/
   /*background-size: 50% 100%;*/
@@ -21,11 +22,13 @@
   /*gap: 1rem;*/
   overflow-y:scroll;
   align-content: flex-start;
-  background: url("../assets/wood_board.png");
-  background-size: 50% 100%;
+  background: url("../assets/wood_board_wide.png");
+  background-size: 100% 100%;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-auto-rows: min-content;
   gap: 1rem;
 }
 
@@ -45,7 +48,7 @@
   position: relative;
   border-radius: 1rem;
   background: #ece7e4;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .dish_card:hover {
@@ -84,6 +87,7 @@
 .dish_card h1 {
   margin: 0.5rem 0;
   font-size: 100%;
+  text-align: center;
 }
 
 .dish_info_container {

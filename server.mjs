@@ -4,5 +4,5 @@ const genshinData = new GenshinData();
 
 
 // Async/await
-const characters = await genshinData.potions();
+const characters = await genshinData.food();
 console.log(characters);

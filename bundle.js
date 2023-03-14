@@ -20,6 +20,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/menu_page.css":
+/*!*****************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/menu_page.css ***!
+  \*****************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/wood_board_wide.png */ \"./assets/wood_board_wide.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/item_bg_blue.png */ \"./assets/item_bg_blue.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/wood_board.png */ \"./assets/wood_board.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/1x/Asset 1.png */ \"./assets/1x/Asset 1.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".menu_content_wrapper {\\r\\n  background: #333226;\\r\\n  height: calc(100vh - 10rem);\\r\\n  display: flex;\\r\\n  justify-content: center;\\r\\n  z-index: 1;\\r\\n}\\r\\n\\r\\n#menu_content {\\r\\n  width: 100%;\\r\\n  height: 100%;\\r\\n  /*background: url(\\\"../assets/wood_board.png\\\");*/\\r\\n  /*background-size: 50% 100%;*/\\r\\n  display: grid;\\r\\n  grid-template-columns: 2fr 1fr;\\r\\n}\\r\\n\\r\\n.dish_list_container {\\r\\n  padding: 1rem;\\r\\n  /*display: flex;*/\\r\\n  /*flex-wrap: wrap;*/\\r\\n  /*gap: 1rem;*/\\r\\n  overflow-y:scroll;\\r\\n  align-content: flex-start;\\r\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  background-size: 100% 100%;\\r\\n\\r\\n  display: grid;\\r\\n  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));\\r\\n  grid-template-rows: repeat(auto-fit, minmax(12rem, 1fr));\\r\\n  grid-auto-rows: min-content;\\r\\n  gap: 1rem;\\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n.dish_card {\\r\\n  box-sizing: border-box;\\r\\n  /*background: goldenrod;*/\\r\\n  /*flex-grow: 1;*/\\r\\n  /*width: max(12rem, 20%);*/\\r\\n  aspect-ratio: 1.1;\\r\\n  /*position: relative;*/\\r\\n  display: flex;\\r\\n  flex-flow: column;\\r\\n  align-items: center;\\r\\n  /*flex-grow: 1;*/\\r\\n  position: relative;\\r\\n  border-radius: 1rem;\\r\\n  background: #ece7e4;\\r\\n  overflow: hidden;\\r\\n}\\r\\n\\r\\n.dish_card:hover {\\r\\n  border: white solid 2px;\\r\\n}\\r\\n\\r\\n.dish_card_selected {\\r\\n  box-shadow: 0 0 15px 5px #FFFFFF;\\r\\n}\\r\\n\\r\\n.dish_card .image_wrapper {\\r\\n  /*border-radius: 1rem;*/\\r\\n  position: relative;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  align-items: center;\\r\\n  justify-content: space-between;\\r\\n  flex-grow: 1;\\r\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n  background-size: cover;\\r\\n  border-bottom-right-radius: 2rem;\\r\\n}\\r\\n\\r\\n.dish_card .image_wrapper > img {\\r\\n  width: 65%;\\r\\n  /*margin: 0.5rem 0;*/\\r\\n}\\r\\n\\r\\n.dish_card .image_wrapper > img + img {\\r\\n  position: absolute;\\r\\n  bottom: -0.5rem;\\r\\n  height: 1.5rem;\\r\\n  width:auto;\\r\\n}\\r\\n\\r\\n.dish_card h1 {\\r\\n  margin: 0.5rem 0;\\r\\n  font-size: 100%;\\r\\n  text-align: center;\\r\\n}\\r\\n\\r\\n.dish_info_container {\\r\\n  padding: 1rem;\\r\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\r\\n  background-size: 100% 100%;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_name {\\r\\n  /*background: dodgerblue;*/\\r\\n  height: 4rem;\\r\\n  displaY: flex;\\r\\n  align-items: center;\\r\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\r\\n  background-size: 100% 100%;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_name h3 {\\r\\n  margin-left: 5%;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_image_wrapper {\\r\\n  display: grid;\\r\\n  grid-template-columns: 2fr 3fr;\\r\\n  padding: 1rem 0.5rem;\\r\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n  background-size: 100% 100%;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_image_wrapper > img {\\r\\n  width:100%;\\r\\n  grid-area: 1 / 2 / 2 / 3;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_image_wrapper > img + img {\\r\\n  grid-area: 1 / 1 / 2 / 2;\\r\\n  align-self: end;\\r\\n  height: 2rem;\\r\\n  width: auto;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_detail_wrapper {\\r\\n  flex-grow: 1;\\r\\n  background: #ede5da;\\r\\n  padding: 2rem;\\r\\n}\\r\\n\\r\\n.dish_info_container .info_dish_detail_wrapper p {\\r\\n  height: 100%;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu_page.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -57,6 +67,16 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_about_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./about_page.css */ \"./node_modules/css-loader/dist/cjs.js!./src/about_page.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_about_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_about_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_about_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_about_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://restaurant-page/./src/about_page.css?");
+
+/***/ }),
+
+/***/ "./src/menu_page.css":
+/*!***************************!*\
+  !*** ./src/menu_page.css ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_menu_page_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./menu_page.css */ \"./node_modules/css-loader/dist/cjs.js!./src/menu_page.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_menu_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_menu_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_menu_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_menu_page_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu_page.css?");
 
 /***/ }),
 
@@ -130,6 +150,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/card_generator.js":
+/*!*******************************!*\
+  !*** ./src/card_generator.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"dish_card_list\": () => (/* binding */ dish_card_list)\n/* harmony export */ });\n/* harmony import */ var genshin_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! genshin-data */ \"./node_modules/genshin-data/dist/index.js\");\n/* harmony import */ var _menu_page_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu_page.css */ \"./src/menu_page.css\");\n\r\n\r\nconst genshinData = new genshin_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n\r\n\r\n// Async/await\r\nfunction getBgColor(rarity) {\r\n    if (rarity === 1)\r\n        return 'item_bg_gray';\r\n    else if (rarity === 2)\r\n        return 'item_bg_green';\r\n    else if (rarity === 3)\r\n        return 'item_bg_blue';\r\n    else if (rarity === 4)\r\n        return 'item_bg_purple';\r\n    else if (rarity === 5)\r\n        return 'item_bg_orange';\r\n}\r\n\r\nlet currentSelected;\r\n\r\n\r\nconst dish_card_list = async () => {\r\n    const dish_array = await genshinData.food();\r\n    let card_list = dish_array.map(dish => {\r\n        const dish_card = document.createElement('div');\r\n        dish_card.classList.add('dish_card');\r\n\r\n        const image_wrapper = document.createElement('div');\r\n        image_wrapper.classList.add('image_wrapper');\r\n        image_wrapper.style.background = `url(\"../assets/${getBgColor(dish.rarity)}.png\")`\r\n        image_wrapper.style.backgroundSize = '100% 100%';\r\n\r\n        const img_dish = document.createElement('img');\r\n        img_dish.src = \"../assets/dish1.png\";\r\n        img_dish.alt = dish.id;\r\n\r\n        const img_dish_stars = document.createElement('img');\r\n        img_dish_stars.src = `../assets/${dish.rarity}_star.png`;\r\n        img_dish_stars.alt = dish.rarity.toString();\r\n\r\n        image_wrapper.appendChild(img_dish);\r\n        image_wrapper.appendChild(img_dish_stars);\r\n\r\n        const title = document.createElement('h1');\r\n        title.innerHTML = dish.name;\r\n\r\n        dish_card.appendChild(image_wrapper);\r\n        dish_card.appendChild(title);\r\n        dish_card.addEventListener('click', () => {\r\n            currentSelected.classList.remove('dish_card_selected');\r\n            currentSelected = dish_card;\r\n            dish_card.classList.add('dish_card_selected');\r\n        });\r\n        return dish_card;\r\n    })\r\n    currentSelected = card_list[0];\r\n    return card_list;\r\n}\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/card_generator.js?");
+
+/***/ }),
+
 /***/ "./src/header_bar.js":
 /*!***************************!*\
   !*** ./src/header_bar.js ***!
@@ -156,7 +186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header_bar */ \"./src/header_bar.js\");\n/* harmony import */ var _home_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home_page */ \"./src/home_page.js\");\n/* harmony import */ var _menu_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu_page */ \"./src/menu_page.js\");\n/* harmony import */ var _about_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about_page */ \"./src/about_page.js\");\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.body.appendChild((0,_header_bar__WEBPACK_IMPORTED_MODULE_0__.header_bar)());\r\n// document.body.appendChild(home_page());\r\n\r\nconst buttons= document.getElementsByClassName('header_button');\r\nlet btn_list = [...buttons];\r\n\r\nfunction enableAllHeaderButtons() {\r\n  btn_list[0].disabled = false;\r\n  btn_list[1].disabled = false;\r\n  btn_list[2].disabled = false;\r\n}\r\n\r\nbtn_list[0].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_home_page__WEBPACK_IMPORTED_MODULE_1__.home_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n});\r\n\r\nbtn_list[1].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_menu_page__WEBPACK_IMPORTED_MODULE_2__.menu_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n})\r\n\r\nbtn_list[2].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_about_page__WEBPACK_IMPORTED_MODULE_3__.about_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n})\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header_bar */ \"./src/header_bar.js\");\n/* harmony import */ var _home_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home_page */ \"./src/home_page.js\");\n/* harmony import */ var _menu_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu_page */ \"./src/menu_page.js\");\n/* harmony import */ var _about_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about_page */ \"./src/about_page.js\");\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.body.appendChild((0,_header_bar__WEBPACK_IMPORTED_MODULE_0__.header_bar)());\r\ndocument.body.appendChild((0,_home_page__WEBPACK_IMPORTED_MODULE_1__.home_page)());\r\n\r\nconst buttons= document.getElementsByClassName('header_button');\r\nlet btn_list = [...buttons];\r\n\r\nfunction enableAllHeaderButtons() {\r\n  btn_list[0].disabled = false;\r\n  btn_list[1].disabled = false;\r\n  btn_list[2].disabled = false;\r\n}\r\n\r\nbtn_list[0].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_home_page__WEBPACK_IMPORTED_MODULE_1__.home_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n});\r\n\r\nbtn_list[1].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_menu_page__WEBPACK_IMPORTED_MODULE_2__.menu_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n})\r\n\r\nbtn_list[2].addEventListener('click', (e) => {\r\n  document.body.removeChild(document.body.getElementsByClassName('wrapper')[0]);\r\n  document.body.appendChild((0,_about_page__WEBPACK_IMPORTED_MODULE_3__.about_page)());\r\n  enableAllHeaderButtons();\r\n  e.target.disabled = true;\r\n})\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -166,7 +196,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menu_page\": () => (/* binding */ menu_page)\n/* harmony export */ });\n\r\n\r\nfunction menu_page() {\r\n  const main = document.createElement('h1');\r\n  main.classList.add('wrapper');\r\n  main.innerHTML = \"Menu Page\";\r\n  return main;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu_page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menu_page\": () => (/* binding */ menu_page)\n/* harmony export */ });\n/* harmony import */ var _card_generator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./card_generator */ \"./src/card_generator.js\");\n\r\n\r\n\r\nfunction menu_page() {\r\n  const menu_content_wrapper = document.createElement('div');\r\n  menu_content_wrapper.classList.add('menu_content_wrapper');\r\n  menu_content_wrapper.classList.add('wrapper');\r\n\r\n  const menu_content = document.createElement('div');\r\n  menu_content.id = 'menu_content';\r\n\r\n  const dish_list_container = document.createElement('div');\r\n  dish_list_container.classList.add('dish_list_container');\r\n  dish_list_container.id = 'dish_list_container';\r\n\r\n  const dish_info_container = document.createElement('div');\r\n  dish_info_container.classList.add('dish_info_container');\r\n\r\n  const info_dish_name = document.createElement('div');\r\n  info_dish_name.classList.add('info_dish_name');\r\n  const dish_name = document.createElement('h3');\r\n\r\n  info_dish_name.appendChild(dish_name);\r\n\r\n  const info_dish_image_wrapper = document.createElement('div');\r\n  info_dish_image_wrapper.classList.add('info_dish_image_wrapper');\r\n\r\n  const img_dish = document.createElement('img');\r\n  const img_stars = document.createElement('img');\r\n\r\n  info_dish_image_wrapper.appendChild(img_dish);\r\n  info_dish_image_wrapper.appendChild(img_stars);\r\n\r\n  const info_dish_detail_wrapper = document.createElement('div');\r\n  const dish_info = document.createElement('p');\r\n\r\n  info_dish_detail_wrapper.appendChild(dish_info);\r\n\r\n\r\n  dish_info_container.appendChild(info_dish_name);\r\n  dish_info_container.appendChild(info_dish_image_wrapper);\r\n  dish_info_container.appendChild(info_dish_detail_wrapper);\r\n\r\n  menu_content.appendChild(dish_list_container);\r\n  menu_content.appendChild(dish_info_container);\r\n\r\n  menu_content_wrapper.appendChild(menu_content);\r\n\r\n    (0,_card_generator__WEBPACK_IMPORTED_MODULE_0__.dish_card_list)().then(cards => cards.forEach(card => {\r\n        dish_list_container.appendChild(card)\r\n    }));\r\n\r\n  return menu_content_wrapper;\r\n\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu_page.js?");
+
+/***/ }),
+
+/***/ "./assets/1x/Asset 1.png":
+/*!*******************************!*\
+  !*** ./assets/1x/Asset 1.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d05df1657ae5c4241104.png\";\n\n//# sourceURL=webpack://restaurant-page/./assets/1x/Asset_1.png?");
 
 /***/ }),
 
@@ -177,6 +217,46 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"a0ffdb8793d57986a224.png\";\n\n//# sourceURL=webpack://restaurant-page/./assets/bg_vertical.png?");
+
+/***/ }),
+
+/***/ "./assets/item_bg_blue.png":
+/*!*********************************!*\
+  !*** ./assets/item_bg_blue.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9a515dbfb68051d480c5.png\";\n\n//# sourceURL=webpack://restaurant-page/./assets/item_bg_blue.png?");
+
+/***/ }),
+
+/***/ "./assets/wood_board.png":
+/*!*******************************!*\
+  !*** ./assets/wood_board.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c59059e89d6108eac3f8.png\";\n\n//# sourceURL=webpack://restaurant-page/./assets/wood_board.png?");
+
+/***/ }),
+
+/***/ "./assets/wood_board_wide.png":
+/*!************************************!*\
+  !*** ./assets/wood_board_wide.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3f93b90111780b67d958.png\";\n\n//# sourceURL=webpack://restaurant-page/./assets/wood_board_wide.png?");
+
+/***/ }),
+
+/***/ "./node_modules/genshin-data/dist/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/genshin-data/dist/index.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ c),\n/* harmony export */   \"languages\": () => (/* binding */ l)\n/* harmony export */ });\nconst o = (s, t) => {\n  const a = s[t];\n  return a ? typeof a == \"function\" ? a() : Promise.resolve(a) : new Promise((i, n) => {\n    (typeof queueMicrotask == \"function\" ? queueMicrotask : setTimeout)(n.bind(null, new Error(\"Unknown variable dynamic import: \" + t)));\n  });\n}, l = [\n  \"english\",\n  \"spanish\",\n  \"japanese\",\n  \"chinese-simplified\",\n  \"chinese-traditional\",\n  \"french\",\n  \"german\",\n  \"indonesian\",\n  \"italian\",\n  \"korean\",\n  \"portuguese\",\n  \"russian\",\n  \"thai\",\n  \"turkish\",\n  \"vietnamese\"\n];\nclass c {\n  constructor(t) {\n    this.options = {\n      language: \"english\"\n    }, t && (this.options = { ...this.options, ...t });\n  }\n  setOptions(t) {\n    this.options = { ...this.options, ...t };\n  }\n  getOptions() {\n    return this.options;\n  }\n  getLang() {\n    return this.options.language;\n  }\n  async characters(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"characters\", t);\n  }\n  async weapons(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"weapons\", t);\n  }\n  async artifacts(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"artifacts\", t);\n  }\n  async commonMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"common_materials\", t);\n  }\n  async elementalStoneMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"elemental_stone_materials\", t);\n  }\n  async food(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"food\", t);\n  }\n  async ingredients(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"ingredients\", t);\n  }\n  async jewelsMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"jewels_materials\", t);\n  }\n  async localMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"local_materials\", t);\n  }\n  async potions(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"potions\", t);\n  }\n  async talentLvlUpMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"talent_lvl_up_materials\", t);\n  }\n  async weaponPrimaryMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"weapon_primary_materials\", t);\n  }\n  async weaponSecondaryMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"weapon_secondary_materials\", t);\n  }\n  async fish(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"fish\", t);\n  }\n  async fishingRods(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"fishing_rod\", t);\n  }\n  async baits(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"bait\", t);\n  }\n  async characterExpMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"character_exp_material\", t);\n  }\n  async weaponExpMaterials(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"weapon_enhancement_material\", t);\n  }\n  async materials(t) {\n    const a = this.getLang();\n    return (await Promise.all([\n      await this.findByFolder(a, \"weapon_primary_materials\", t),\n      await this.findByFolder(a, \"weapon_secondary_materials\", t),\n      await this.findByFolder(a, \"common_materials\", t),\n      await this.findByFolder(a, \"elemental_stone_materials\", t),\n      await this.findByFolder(a, \"jewels_materials\", t),\n      await this.findByFolder(a, \"local_materials\", t),\n      await this.findByFolder(a, \"talent_lvl_up_materials\", t),\n      await this.findByFolder(a, \"character_exp_material\", t),\n      await this.findByFolder(a, \"weapon_enhancement_material\", t)\n    ])).flat();\n  }\n  async achievements(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"achievements\", t);\n  }\n  async furnishings(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"furnishing\", t);\n  }\n  async domains(t) {\n    const a = this.getLang();\n    return (await this.findByFolder(a, \"domains\", t))[0];\n  }\n  async tcgCharacters(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"tcg_characters\", t);\n  }\n  async tcgActions(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"tcg_action\", t);\n  }\n  async tcgMonsters(t) {\n    const a = this.getLang();\n    return await this.findByFolder(a, \"tcg_monsters\", t);\n  }\n  async tcgCards(t) {\n    const a = this.getLang();\n    return (await Promise.all([\n      await this.findByFolder(a, \"tcg_characters\", t),\n      await this.findByFolder(a, \"tcg_action\", t),\n      await this.findByFolder(a, \"tcg_monsters\", t)\n    ])).flat();\n  }\n  async findByFolder(t, a, i) {\n    let n = (await o(/* @__PURE__ */ Object.assign({ \"./min/data_chinese-simplified.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_chinese-simplified_min-11300c70_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_chinese-simplified.min-11300c70.js */ \"./node_modules/genshin-data/dist/data_chinese-simplified.min-11300c70.js\")), \"./min/data_chinese-traditional.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_chinese-traditional_min-1a88f97a_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_chinese-traditional.min-1a88f97a.js */ \"./node_modules/genshin-data/dist/data_chinese-traditional.min-1a88f97a.js\")), \"./min/data_english.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_english_min-cb94e245_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_english.min-cb94e245.js */ \"./node_modules/genshin-data/dist/data_english.min-cb94e245.js\")), \"./min/data_french.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_french_min-c8880f63_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_french.min-c8880f63.js */ \"./node_modules/genshin-data/dist/data_french.min-c8880f63.js\")), \"./min/data_german.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_german_min-bfa786b9_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_german.min-bfa786b9.js */ \"./node_modules/genshin-data/dist/data_german.min-bfa786b9.js\")), \"./min/data_indonesian.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_indonesian_min-3e8abe93_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_indonesian.min-3e8abe93.js */ \"./node_modules/genshin-data/dist/data_indonesian.min-3e8abe93.js\")), \"./min/data_italian.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_italian_min-aecd612d_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_italian.min-aecd612d.js */ \"./node_modules/genshin-data/dist/data_italian.min-aecd612d.js\")), \"./min/data_japanese.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_japanese_min-ee9391e6_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_japanese.min-ee9391e6.js */ \"./node_modules/genshin-data/dist/data_japanese.min-ee9391e6.js\")), \"./min/data_korean.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_korean_min-5e11c431_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_korean.min-5e11c431.js */ \"./node_modules/genshin-data/dist/data_korean.min-5e11c431.js\")), \"./min/data_portuguese.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_portuguese_min-b659c8bc_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_portuguese.min-b659c8bc.js */ \"./node_modules/genshin-data/dist/data_portuguese.min-b659c8bc.js\")), \"./min/data_russian.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_russian_min-57ce868e_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_russian.min-57ce868e.js */ \"./node_modules/genshin-data/dist/data_russian.min-57ce868e.js\")), \"./min/data_spanish.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_spanish_min-9950dfcd_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_spanish.min-9950dfcd.js */ \"./node_modules/genshin-data/dist/data_spanish.min-9950dfcd.js\")), \"./min/data_thai.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_thai_min-d06e72e3_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_thai.min-d06e72e3.js */ \"./node_modules/genshin-data/dist/data_thai.min-d06e72e3.js\")), \"./min/data_turkish.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_turkish_min-fc8dd615_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_turkish.min-fc8dd615.js */ \"./node_modules/genshin-data/dist/data_turkish.min-fc8dd615.js\")), \"./min/data_vietnamese.min.json\": () => __webpack_require__.e(/*! import() */ \"vendors-node_modules_genshin-data_dist_data_vietnamese_min-0ca22fe4_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data_vietnamese.min-0ca22fe4.js */ \"./node_modules/genshin-data/dist/data_vietnamese.min-0ca22fe4.js\")) }), `./min/data_${t}.min.json`)).default[a];\n    return i && (n = this.selectProps(n, i)), n;\n  }\n  selectProps(t, a) {\n    return a.select ? t.map((i) => {\n      var e;\n      let n = {};\n      return (e = a.select) == null || e.forEach((r) => {\n        n[r] = i[r];\n      }), n;\n    }) : t;\n  }\n}\n\n//# sourceMappingURL=index.js.map\n\n\n//# sourceURL=webpack://restaurant-page/./node_modules/genshin-data/dist/index.js?");
 
 /***/ })
 
@@ -234,6 +314,28 @@ eval("module.exports = __webpack_require__.p + \"a0ffdb8793d57986a224.png\";\n\n
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		__webpack_require__.f = {};
+/******/ 		// This file contains only the entry chunk.
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		__webpack_require__.e = (chunkId) => {
+/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
+/******/ 				__webpack_require__.f[key](chunkId, promises);
+/******/ 				return promises;
+/******/ 			}, []));
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get javascript chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference async chunks
+/******/ 		__webpack_require__.u = (chunkId) => {
+/******/ 			// return url for filenames based on template
+/******/ 			return "" + chunkId + ".bundle.js";
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -249,6 +351,51 @@ eval("module.exports = __webpack_require__.p + \"a0ffdb8793d57986a224.png\";\n\n
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/load script */
+/******/ 	(() => {
+/******/ 		var inProgress = {};
+/******/ 		var dataWebpackPrefix = "restaurant-page:";
+/******/ 		// loadScript function to load a script via script tag
+/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 			var script, needAttach;
+/******/ 			if(key !== undefined) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				for(var i = 0; i < scripts.length; i++) {
+/******/ 					var s = scripts[i];
+/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
+/******/ 				}
+/******/ 			}
+/******/ 			if(!script) {
+/******/ 				needAttach = true;
+/******/ 				script = document.createElement('script');
+/******/ 		
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 				script.src = url;
+/******/ 			}
+/******/ 			inProgress[url] = [done];
+/******/ 			var onScriptComplete = (prev, event) => {
+/******/ 				// avoid mem leaks in IE.
+/******/ 				script.onerror = script.onload = null;
+/******/ 				clearTimeout(timeout);
+/******/ 				var doneFns = inProgress[url];
+/******/ 				delete inProgress[url];
+/******/ 				script.parentNode && script.parentNode.removeChild(script);
+/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 				if(prev) return prev(event);
+/******/ 			};
+/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -293,7 +440,44 @@ eval("module.exports = __webpack_require__.p + \"a0ffdb8793d57986a224.png\";\n\n
 /******/ 			"main": 0
 /******/ 		};
 /******/ 		
-/******/ 		// no chunk on demand loading
+/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
+/******/ 				// JSONP chunk loading for javascript
+/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 		
+/******/ 					// a Promise means "currently loading".
+/******/ 					if(installedChunkData) {
+/******/ 						promises.push(installedChunkData[2]);
+/******/ 					} else {
+/******/ 						if(true) { // all chunks have JS
+/******/ 							// setup Promise in chunk cache
+/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
+/******/ 							promises.push(installedChunkData[2] = promise);
+/******/ 		
+/******/ 							// start chunk loading
+/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 							// create error before stack unwound to get useful stacktrace later
+/******/ 							var error = new Error();
+/******/ 							var loadingEnded = (event) => {
+/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 									installedChunkData = installedChunks[chunkId];
+/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 									if(installedChunkData) {
+/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 										var realSrc = event && event.target && event.target.src;
+/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 										error.name = 'ChunkLoadError';
+/******/ 										error.type = errorType;
+/******/ 										error.request = realSrc;
+/******/ 										installedChunkData[1](error);
+/******/ 									}
+/******/ 								}
+/******/ 							};
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 						} else installedChunks[chunkId] = 0;
+/******/ 					}
+/******/ 				}
+/******/ 		};
 /******/ 		
 /******/ 		// no prefetching
 /******/ 		
@@ -305,7 +489,34 @@ eval("module.exports = __webpack_require__.p + \"a0ffdb8793d57986a224.png\";\n\n
 /******/ 		
 /******/ 		// no on chunks loaded
 /******/ 		
-/******/ 		// no jsonp function
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 		
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunkrestaurant_page"] = self["webpackChunkrestaurant_page"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

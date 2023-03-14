@@ -1,4 +1,5 @@
 import {dish_card_list} from "./card_generator";
+import "./menu_page.css"
 
 
 export function menu_page() {

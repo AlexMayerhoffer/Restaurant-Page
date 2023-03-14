@@ -1,4 +1,4 @@
-
+import '../dist/style.css'
 
 export function home_page() {
   const main = document.createElement('div');

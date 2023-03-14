@@ -19,9 +19,19 @@ function getBgColor(rarity) {
 
 let currentSelected;
 
+const updateCurrent = (dish) => {
+    document.getElementById('info_dish_name').innerHTML = dish.name;
+    document.getElementById('info_img_stars').src = `../assets/${dish.rarity}_star.png`
+    document.getElementById('info_img_dish').src = '../assets/dish1.png';
+    document.getElementById('info_dish_description').innerHTML = dish.description;
+    document.getElementById('info_dish_image_wrapper').style.background = `url("../assets/${getBgColor(dish.rarity)}.png")`;
+    document.getElementById('info_dish_name_bg').style.background = `url("../assets/1x/title_${getBgColor(dish.rarity)}.png")`
+    document.getElementById('info_dish_name_bg').style.backgroundSize = '100% 100%';
+}
 
 const dish_card_list = async () => {
     const dish_array = await genshinData.food();
+    updateCurrent(dish_array[0]);
     let card_list = dish_array.map(dish => {
         const dish_card = document.createElement('div');
         dish_card.classList.add('dish_card');
@@ -51,10 +61,13 @@ const dish_card_list = async () => {
             currentSelected.classList.remove('dish_card_selected');
             currentSelected = dish_card;
             dish_card.classList.add('dish_card_selected');
+            updateCurrent(dish);
         });
         return dish_card;
     })
     currentSelected = card_list[0];
+    currentSelected.classList.add('dish_card_selected');
+
     return card_list;
 }
 

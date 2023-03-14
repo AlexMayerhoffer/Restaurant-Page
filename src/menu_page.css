@@ -88,6 +88,7 @@
   margin: 0.5rem 0;
   font-size: 100%;
   text-align: center;
+  cursor: default;
 }
 
 .dish_info_container {
@@ -103,7 +104,7 @@
   height: 4rem;
   displaY: flex;
   align-items: center;
-  background: url("../assets/1x/Asset 1.png");
+  background: url("../assets/1x/title_item_bg_blue.png");
   background-size: 100% 100%;
 }
 
@@ -139,4 +140,5 @@
 
 .dish_info_container .info_dish_detail_wrapper p {
   height: 100%;
+  font-size: 1.2rem;
 }
